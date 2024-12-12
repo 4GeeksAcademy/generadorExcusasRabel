@@ -3,9 +3,9 @@ let what = ['se comió','aplastó','robó','rompió', 'ensució'];
 let when = ['antes de clases','justo cuando terminé','mientras almorzaba','mientras yo rezaba'];
 
 function excuseGenerator(quien, que, cuando){
-    numQuien = Math.floor(Math.random() * quien.length);
-    numQue = Math.floor(Math.random() * que.length);
-    numCuando = Math.floor(Math.random() * cuando.length);
+   let numQuien = Math.floor(Math.random() * quien.length);
+   let numQue = Math.floor(Math.random() * que.length);
+   let numCuando = Math.floor(Math.random() * cuando.length);
 
     return quien[numQuien] + " " + que[numQue] + " " + "mi tarea" + " " + cuando[numCuando];
 }
